@@ -1,7 +1,8 @@
 import React, { PureComponent } from 'react';
-import { View, Animated, Easing, TouchableOpacity, ViewPropTypes } from 'react-native';
+import { View, Animated, Easing, TouchableOpacity } from 'react-native';
 import PropTypes from 'prop-types';
 import styles from './Pagination.style';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types'; 
 
 export default class PaginationDot extends PureComponent {
 
